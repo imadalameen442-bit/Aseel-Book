@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en" data-palette="rose">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>For Aseel</title>
+<meta name="description" content="A book in return." />
+<link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><polygon points="14,27 17,9 30,19" fill="%238f4d5f"/><polygon points="50,27 47,9 34,19" fill="%238f4d5f"/><circle cx="32" cy="37" r="20" fill="%238f4d5f"/><circle cx="25" cy="34" r="2.4" fill="%23f6e8da"/><circle cx="39" cy="34" r="2.4" fill="%23f6e8da"/><polygon points="32,40 29,43 35,43" fill="%23f6e8da"/></svg>' />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Caveat:wght@400;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="book-styles.css" />
+</head>
+<body>
+
+<div class="ambient" id="ambient"></div>
+
+<div class="stage">
+  <div class="book-wrap">
+    <div class="book closed-front" id="book">
+
+      <!-- ════════ LEAF 0 : Cover / Inside cover ════════ -->
+      <div class="leaf">
+        <div class="page front cover" data-screen-label="Cover">
+          <div class="cover-frame"></div>
+          <div class="cat-emblem">
+            <svg viewBox="0 0 64 64" width="72" height="72" aria-hidden="true">
+              <polygon points="14,27 17,9 30,19" fill="currentColor"></polygon>
+              <polygon points="50,27 47,9 34,19" fill="currentColor"></polygon>
+              <circle cx="32" cy="37" r="20" fill="currentColor"></circle>
+              <circle cx="25" cy="34" r="2.4" fill="#8f4d5f" class="cat-eye"></circle>
+              <circle cx="39" cy="34" r="2.4" fill="#8f4d5f" class="cat-eye"></circle>
+              <polygon points="32,40 29,43 35,43" fill="#8f4d5f" class="cat-eye"></polygon>
+            </svg>
+          </div>
+          <div class="cover-kicker">A Book in Return</div>
+          <!-- ✏️ EDIT: cover title -->
+          <h1 class="cover-title">For Aseel</h1>
+          <!-- ✏️ EDIT: cover subtitle -->
+          <div class="cover-sub">because you wrote me one first</div>
+          <div class="cover-hint">tap the cover to open</div>
+        </div>
+        <div class="page back" data-screen-label="Inside cover">
+          <div class="bookplate">
+            <div class="ex">Ex Libris</div>
+            <svg viewBox="0 0 64 64" width="52" height="52" aria-hidden="true">
+              <polygon points="14,27 17,9 30,19" fill="var(--accent-deep)"></polygon>
+              <polygon points="50,27 47,9 34,19" fill="var(--accent-deep)"></polygon>
+              <circle cx="32" cy="37" r="20" fill="var(--accent-deep)"></circle>
+              <circle cx="25" cy="34" r="2.4" fill="var(--accent-wash)"></circle>
+              <circle cx="39" cy="34" r="2.4" fill="var(--accent-wash)"></circle>
+              <polygon points="32,40 29,43 35,43" fill="var(--accent-wash)"></polygon>
+            </svg>
+            <div class="who">Aseel</div>
+            <!-- ✏️ EDIT: bookplate note -->
+            <div class="hand">shelved under: people who keep going</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ════════ LEAF 1 : Title page / Dedication ════════ -->
+      <div class="leaf">
+        <div class="page front" data-screen-label="Title page">
+          <div class="spacer"></div>
+          <div style="text-align: center;">
+            <div class="kicker">Observations · Evidence · One Chess Loss</div>
+            <!-- ✏️ EDIT: book title -->
+            <h2 style="font-size: 48px;">The Aseel I&nbsp;Know</h2>
+            <div class="orn"><span>❦</span></div>
+            <!-- ✏️ EDIT: byline -->
+            <p class="body" style="font-style: italic;">written back to the girl who is writing me a book</p>
+          </div>
+          <div class="spacer"></div>
+          <div class="hand" style="text-align: center;">some pages hide things. tap anything that looks curious.</div>
+          <div class="spacer"></div>
+          <div class="page-num">i</div>
+        </div>
+        <div class="page back" data-screen-label="Dedication">
+          <div class="spacer"></div>
+          <!-- ✏️ EDIT: dedication -->
+          <p class="body" style="text-align: center; font-style: italic;">
+            You used paper. I used pixels.<br />
+            We're even.
+          </p>
+          <p class="hand" style="text-align: center;">(mine has fewer typos. probably.)</p>
+          <div class="spacer"></div>
+          <div class="page-num">ii</div>
+        </div>
+      </div>
+
+      <!-- ════════ LEAF 2 : Chapter I / Every day ════════ -->
+      <div class="leaf">
+        <div class="page front" data-screen-label="Chapter I — What I See">
+          <div class="kicker">Chapter I</div>
+          <h2>What I see<br />(that you don't)</h2>
+          <div class="orn"><span>❦</span></div>
+          <!-- ✏️ EDIT: chapter intro -->
+          <p class="body">You don't see yourself very clearly. Lucky for you, I have excellent eyesight.</p>
+          <p class="body">So this book is just the evidence — the things you do every day that you never give yourself credit for.</p>
+          <p class="body">All of it is true. I checked.</p>
+          <div class="spacer"></div>
+          <div class="margin-note">— signed, the reliable witness</div>
+          <div class="page-num">1</div>
+        </div>
+        <div class="page back" data-screen-label="Every day">
+          <div class="kicker">Exhibit A</div>
+          <h2>You show up.</h2>
+          <div class="orn"><span>❦</span></div>
+          <!-- ✏️ EDIT: this page -->
+          <p class="body">Every single day. School. Studying harder than anyone I know. Chorus. All of it, again, the next morning.</p>
+          <p class="body">You call it <strong>"just trying my best."</strong></p>
+          <p class="body">From out here, it looks a lot like quiet bravery.</p>
+          <p class="body">And here's the part you really miss: anyone can be brilliant for one day. You're <strong>steady</strong> — and steady is the rarest thing there is. Steady is what actually builds a life.</p>
+          <div class="spacer"></div>
+          <div class="page-num">2</div>
+        </div>
+      </div>
+
+      <!-- ════════ LEAF 3 : Heavy chapters / Kindness ════════ -->
+      <div class="leaf">
+        <div class="page front" data-screen-label="Heavy chapters">
+          <div class="kicker">Exhibit B</div>
+          <h2>Some chapters were heavy.</h2>
+          <div class="orn"><span>❦</span></div>
+          <!-- ✏️ EDIT: this page (the hardships one — your words matter most here) -->
+          <p class="body">Heavier than anyone your age should have to carry. I won't write them out here — they're yours, not mine.</p>
+          <p class="body">But I watched you keep turning the pages anyway. You never made it anyone else's weight, either. You carried it like it was nothing.</p>
+          <p class="body">It wasn't nothing.</p>
+          <p class="body">That's not nothing, Aseel. <strong>That's the whole plot.</strong></p>
+          <div class="spacer"></div>
+          <div class="page-num">3</div>
+        </div>
+        <div class="page back" data-screen-label="Kindness">
+          <div class="kicker">Exhibit C</div>
+          <h2>You're kind. To everyone. Even when it's hard.</h2>
+          <div class="orn"><span>❦</span></div>
+          <!-- ✏️ EDIT: this page -->
+          <p class="body">Genuinely, automatically kind — to every person you meet. Do you know how rare that is?</p>
+          <p class="body">And it's not the convenient kind, either. Yours shows up on your worst days too — I've watched you have nothing left and still find some for whoever needed it.</p>
+          <p class="body">People remember how you make them feel. I've watched it happen.</p>
+          <div class="spacer"></div>
+          <div class="margin-note">rare. like winning against me at chess. (we'll get there.)</div>
+          <div class="page-num">4</div>
+        </div>
+      </div>
+
+      <!-- ════════ LEAF 4 : Proud stamps / Spanish class ════════ -->
+      <div class="leaf">
+        <div class="page front" data-screen-label="Proud stamps">
+          <div class="kicker">Exhibit D</div>
+          <h2>You never say you're proud of yourself.</h2>
+          <!-- ✏️ EDIT: this page -->
+          <p class="body">Good grades. A performance that goes well. Every time, you shrug it off.</p>
+          <p class="body">Fine. Then <strong>I'll say it for you.</strong> Tap the seal — as many times as it takes.</p>
+          <button class="seal-btn" id="sealBtn" data-no-flip>tap to<br />stamp</button>
+          <div class="stamp-field" id="stampField" data-no-flip>
+            <span class="stamp" style="left: 6%;  top: 14%; --rot: -6deg;">PROUD OF YOU</span>
+            <span class="stamp" style="left: 52%; top: 4%;  --rot: 4deg;">so proud</span>
+            <span class="stamp" style="left: 30%; top: 42%; --rot: -2deg;">STILL PROUD</span>
+            <span class="stamp" style="left: 60%; top: 62%; --rot: 7deg;">yep. proud.</span>
+            <span class="stamp" style="left: 8%;  top: 68%; --rot: -8deg;">ALWAYS</span>
+            <span class="stamp" style="left: 38%; top: 22%; --rot: 3deg;">told you</span>
+          </div>
+          <div class="page-num">5</div>
+        </div>
+        <div class="page back" data-screen-label="Spanish class">
+          <div class="kicker">Exhibit E</div>
+          <h2>Spanish class.</h2>
+          <div class="orn"><span>❦</span></div>
+          <!-- ✏️ EDIT: this page -->
+          <p class="body">You hate presenting. You get shy. I know.</p>
+          <p class="body">And then you stood up in Spanish class and went <strong>loud.</strong></p>
+          <p class="body">You probably felt embarrassed. From where I was sitting, it looked like courage. I was grinning the whole time — proud enough for both of us.</p>
+          <p class="body">That's the thing about you and fear: you feel all of it and do the thing anyway. There's a word for that, and it isn't <em>"shy."</em></p>
+          <div class="spacer"></div>
+          <div class="margin-note">— muy, muy valiente</div>
+          <div class="page-num">6</div>
+        </div>
+      </div>
+
+      <!-- ════════ LEAF 5 : Your voice / The encore ════════ -->
+      <div class="leaf">
+        <div class="page front" data-screen-label="Your voice">
+          <div class="kicker">Exhibit F</div>
+          <h2>Then there's your voice.</h2>
+          <div class="orn"><span>❦</span></div>
+          <!-- ✏️ EDIT: the chorus page -->
+          <p class="body">Chorus. Hours of rehearsal nobody claps for. The same lines, over and over, until they sit right. You walk in saying you're <em>"not even that good"</em> — and then you sing.</p>
+          <p class="body">Here's what you can't hear from the inside, so I'm writing it down: from the audience, it doesn't sound like nerves. It sounds like <strong>someone who belongs up there.</strong></p>
+          <button class="clip-btn" id="voiceBtn" data-no-flip>♪ tap to hear what I hear</button>
+          <div class="note-field" id="noteField" data-no-flip></div>
+          <div class="margin-note">— front row, every time I could be</div>
+          <div class="page-num">7</div>
+        </div>
+        <div class="page back" data-screen-label="The encore">
+          <div class="kicker">The Encore</div>
+          <h2>You hear every mistake. We hear the song.</h2>
+          <div class="orn"><span>❦</span></div>
+          <!-- ✏️ EDIT: this page -->
+          <p class="body">After every performance, you do the same thing. You list everything that went wrong: the note you almost missed, the entrance half a beat late.</p>
+          <p class="body">Aseel. Nobody else heard any of that. Not one person. We heard a girl who practiced until the song became hers.</p>
+          <p class="body"><strong>Sit in the audience for yourself, just once.</strong> You'd be amazed at what it sounds like from out here.</p>
+          <div class="spacer"></div>
+          <div class="margin-note">encore. obviously.</div>
+          <div class="page-num">8</div>
+        </div>
+      </div>
+
+      <!-- ════════ LEAF 6 : Not invisible / Chess ════════ -->
+      <div class="leaf">
+        <div class="page front" data-screen-label="Not invisible">
+          <div class="kicker">Exhibit G</div>
+          <h2>You think no one notices.</h2>
+          <div class="orn"><span>❦</span></div>
+          <!-- ✏️ EDIT: this page -->
+          <p class="body">You think you're alone in it. Wrong. I keep records.</p>
+          <button class="clip-btn" id="clipBtn" data-no-flip>📎 tap to open my notes</button>
+          <div class="hidden-notes" id="hiddenNotes" data-no-flip>
+            <!-- ✏️ EDIT: the noticing notes -->
+            <div class="note" style="--rot: -1.5deg; --delay: 0ms;">noticed: you aced that test and acted like it was nothing</div>
+            <div class="note" style="--rot: 1deg; --delay: 120ms;">noticed: you check on everyone else before yourself</div>
+            <div class="note" style="--rot: -0.5deg; --delay: 240ms;">noticed: how hard you worked before chorus performances</div>
+            <div class="note" style="--rot: 1.5deg; --delay: 360ms;">noticed: the heavy days. you came anyway.</div>
+          </div>
+          <div class="spacer"></div>
+          <div class="page-num">9</div>
+        </div>
+        <div class="page back" data-screen-label="Chess record">
+          <div class="kicker">The Official Record</div>
+          <h2 style="text-align: center;">Chess.</h2>
+          <div class="scoreboard">
+            <div class="side"><div class="name">Aseel</div><div class="score">1</div></div>
+            <div class="vs">vs</div>
+            <div class="side"><div class="name">Me</div><div class="score">∞</div></div>
+          </div>
+          <div class="chessboard" id="chessboard" aria-label="A chessboard with one starred square"></div>
+          <!-- ✏️ EDIT: chess secret note -->
+          <div class="chess-secret" id="chessSecret">that one win? I still think about it.<br />rematch whenever, champ.</div>
+          <div class="spacer"></div>
+          <div class="page-num">10</div>
+        </div>
+      </div>
+
+      <!-- ════════ LEAF 7 : Stickers / Rain ════════ -->
+      <div class="leaf">
+        <div class="page front" data-screen-label="Cat stickers">
+          <div class="kicker">For Your Collection</div>
+          <h2>We traded cat stickers once.</h2>
+          <!-- ✏️ EDIT: this page -->
+          <p class="body">Consider this a restock. Tap to peel — they stick to the page.</p>
+          <div class="sticker-sheet" id="stickerSheet" data-no-flip>
+            <button class="sticker" data-sticker="0" aria-label="Cat sticker 1">
+              <svg viewBox="0 0 64 64" width="56" height="56"><polygon points="14,27 17,9 30,19" fill="#c0758a"></polygon><polygon points="50,27 47,9 34,19" fill="#c0758a"></polygon><circle cx="32" cy="37" r="20" fill="#c0758a"></circle><circle cx="25" cy="34" r="2.4" fill="#fffdf6"></circle><circle cx="39" cy="34" r="2.4" fill="#fffdf6"></circle><polygon points="32,40 29,43 35,43" fill="#fffdf6"></polygon></svg>
+            </button>
+            <button class="sticker" data-sticker="1" aria-label="Cat sticker 2">
+              <svg viewBox="0 0 64 64" width="56" height="56"><polygon points="14,27 17,9 30,19" fill="#8d7b66"></polygon><polygon points="50,27 47,9 34,19" fill="#8d7b66"></polygon><circle cx="32" cy="37" r="20" fill="#8d7b66"></circle><path d="M21 34 q4 -4 8 0" stroke="#fffdf6" stroke-width="2" fill="none"></path><path d="M35 34 q4 -4 8 0" stroke="#fffdf6" stroke-width="2" fill="none"></path><polygon points="32,40 29,43 35,43" fill="#fffdf6"></polygon></svg>
+            </button>
+            <button class="sticker" data-sticker="2" aria-label="Cat sticker 3">
+              <svg viewBox="0 0 64 64" width="56" height="56"><polygon points="14,27 17,9 30,19" fill="#5d6b7e"></polygon><polygon points="50,27 47,9 34,19" fill="#5d6b7e"></polygon><circle cx="32" cy="37" r="20" fill="#5d6b7e"></circle><circle cx="25" cy="34" r="2.4" fill="#fffdf6"></circle><circle cx="39" cy="34" r="2.4" fill="#fffdf6"></circle><path d="M26 44 q6 4 12 0" stroke="#fffdf6" stroke-width="2" fill="none"></path></svg>
+            </button>
+            <button class="sticker" data-sticker="3" aria-label="Cat sticker 4">
+              <svg viewBox="0 0 64 64" width="56" height="56"><polygon points="14,27 17,9 30,19" fill="#84a182"></polygon><polygon points="50,27 47,9 34,19" fill="#84a182"></polygon><circle cx="32" cy="37" r="20" fill="#84a182"></circle><path d="M22 33 h7" stroke="#fffdf6" stroke-width="2.4"></path><path d="M35 33 h7" stroke="#fffdf6" stroke-width="2.4"></path><polygon points="32,40 29,43 35,43" fill="#fffdf6"></polygon></svg>
+            </button>
+          </div>
+          <div class="sticker-field" id="stickerField" data-no-flip></div>
+          <div class="page-num">11</div>
+        </div>
+        <div class="page back" data-screen-label="Rain">
+          <div class="kicker">Your Weather</div>
+          <h2>Rain.</h2>
+          <!-- ✏️ EDIT: this page -->
+          <p class="body">Your favorite. Most people complain about grey skies — you light up like the storm was scheduled just for you.</p>
+          <div class="rain-window" id="rainWindow" aria-label="A window with rain falling outside">
+            <div class="window-cat">
+              <svg viewBox="0 0 80 56" width="90" height="63" aria-hidden="true"><polygon points="26,22 28,8 38,16" fill="#3a3027"></polygon><polygon points="54,22 52,8 42,16" fill="#3a3027"></polygon><circle cx="40" cy="28" r="15" fill="#3a3027"></circle><ellipse cx="40" cy="50" rx="22" ry="12" fill="#3a3027"></ellipse></svg>
+            </div>
+          </div>
+          <button class="clip-btn rain-btn" id="rainBtn" data-no-flip>🔊 tap for rain</button>
+          <p class="hand" style="text-align: center; margin-top: 8px;">this page is best read during a storm.</p>
+          <div class="spacer"></div>
+          <div class="page-num">12</div>
+        </div>
+      </div>
+
+      <!-- ════════ LEAF 8 : Field guide / Pet the cat ════════ -->
+      <div class="leaf">
+        <div class="page front" data-screen-label="Cat field guide">
+          <div class="kicker">Expert Testimony</div>
+          <h2>The cats have reached a verdict.</h2>
+          <div class="orn"><span>❦</span></div>
+          <!-- ✏️ EDIT: the cat reviews -->
+          <p class="body">You may have noticed this book is full of cats. That's not an accident. Cats are the strictest judges of character alive — <strong>and they like you anyway.</strong></p>
+          <div class="cat-reviews">
+            <div class="review" style="--rot: -1deg;">
+              <div class="rev-text">"Sat near me without demanding anything. Rare."</div>
+              <div class="rev-meta">★★★★★ — the neighborhood cat</div>
+            </div>
+            <div class="review" style="--rot: 0.8deg;">
+              <div class="rev-text">"Speaks to us in the correct voice. The little one."</div>
+              <div class="rev-meta">★★★★★ — every cat, everywhere</div>
+            </div>
+            <div class="review" style="--rot: -0.6deg;">
+              <div class="rev-text">"Would share her food. Did not have to ask twice."</div>
+              <div class="rev-meta">★★★★★ — a very round cat</div>
+            </div>
+          </div>
+          <div class="spacer"></div>
+          <div class="margin-note">the committee was unanimous.</div>
+          <div class="page-num">13</div>
+        </div>
+        <div class="page back" data-screen-label="Pet the cat">
+          <div class="kicker">Intermission</div>
+          <h2>You've read a lot. Pet the cat.</h2>
+          <!-- ✏️ EDIT: this page -->
+          <p class="body">Scientifically proven to fix most bad days. Go on.</p>
+          <div class="pet-stage" data-no-flip>
+            <button class="pet-cat" id="petCat" aria-label="Pet the cat">
+              <svg viewBox="0 0 120 116" width="220" height="213" aria-hidden="true">
+                <path d="M92 92 q24 -2 20 -26" stroke="#8d7b66" stroke-width="9" fill="none" stroke-linecap="round"></path>
+                <ellipse cx="60" cy="94" rx="36" ry="21" fill="#8d7b66"></ellipse>
+                <polygon points="30,42 34,14 52,28" fill="#8d7b66"></polygon>
+                <polygon points="90,42 86,14 68,28" fill="#8d7b66"></polygon>
+                <circle cx="60" cy="58" r="30" fill="#8d7b66"></circle>
+                <circle class="eye-open" cx="48" cy="54" r="3.4" fill="#fffdf6"></circle>
+                <circle class="eye-open" cx="72" cy="54" r="3.4" fill="#fffdf6"></circle>
+                <path class="eye-closed" d="M43 54 q5 4 10 0" stroke="#fffdf6" stroke-width="2.4" fill="none" stroke-linecap="round"></path>
+                <path class="eye-closed" d="M67 54 q5 4 10 0" stroke="#fffdf6" stroke-width="2.4" fill="none" stroke-linecap="round"></path>
+                <polygon points="60,61 56.5,65 63.5,65" fill="#fffdf6"></polygon>
+                <path d="M30 60 l-14 -3 M30 65 l-14 2" stroke="#8d7b66" stroke-width="1.6" stroke-linecap="round"></path>
+                <path d="M90 60 l14 -3 M90 65 l14 2" stroke="#8d7b66" stroke-width="1.6" stroke-linecap="round"></path>
+              </svg>
+            </button>
+            <div class="heart-field" id="heartField"></div>
+          </div>
+          <div class="hand purr-count" id="purrCount" style="text-align: center;">official purr count: 0</div>
+          <div class="spacer"></div>
+          <div class="page-num">14</div>
+        </div>
+      </div>
+
+      <!-- ════════ LEAF 9 : Illuminated quote / Why that quote ════════ -->
+      <div class="leaf">
+        <div class="page front illum" data-screen-label="The quote">
+          <div class="illum-frame" aria-hidden="true"></div>
+          <div class="spacer"></div>
+          <div class="kicker" style="text-align: center;">Words Borrowed From Someone Wiser</div>
+          <!-- ✏️ EDIT: the quote. Alternates if Curie isn't the one:
+               "Whatever you can do, or dream you can, begin it. Boldness has genius, power, and magic in it." — Goethe
+               "It always seems impossible until it is done." — Nelson Mandela -->
+          <blockquote class="illum-quote">
+            <span class="dropcap">W</span>e must believe that we are gifted for something, and that this thing, at whatever cost, must be attained.
+          </blockquote>
+          <div class="illum-attr">— Marie Curie</div>
+          <div class="hand" style="text-align: center; margin-top: 18px;">two Nobel Prizes. she'd know.</div>
+          <div class="spacer"></div>
+          <div class="page-num">15</div>
+        </div>
+        <div class="page back" data-screen-label="Why that quote">
+          <div class="kicker">In Plain Words</div>
+          <h2>Read it again, slower.</h2>
+          <div class="orn"><span>❦</span></div>
+          <!-- ✏️ EDIT: this page -->
+          <p class="body"><em>Gifted for something.</em> That's not me being nice — that's Marie Curie's rule, and you fit it.</p>
+          <p class="body">I've watched you put your mind to hard classes, heavy days, songs, people. Every single time, the thing gives in before you do.</p>
+          <p class="body"><strong>Whatever you decide to want, you will get.</strong> I'd bet the chess record on it.</p>
+          <div class="spacer"></div>
+          <div class="margin-note">and you know how I protect that record.</div>
+          <div class="page-num">16</div>
+        </div>
+      </div>
+
+      <!-- ════════ LEAF 10 : Official forecast / Guarantee ════════ -->
+      <div class="leaf">
+        <div class="page front" data-screen-label="The forecast">
+          <div class="kicker">Dept. of Inevitable Outcomes</div>
+          <h2 style="margin-bottom: 10px;">The official forecast.</h2>
+          <!-- ✏️ EDIT: the predictions -->
+          <p class="body" style="font-size: 17px; margin-bottom: 10px;">I ran the numbers and consulted the cats. Tap the seal.</p>
+          <button class="seal-btn certify-btn" id="certifyBtn" data-no-flip>certify</button>
+          <div class="forecast-stack" id="forecastStack" data-no-flip>
+            <div class="forecast-card" style="--rot: -0.7deg;"><span class="fc-no">No. 1</span> <strong>WILL</strong> graduate high school and make it look easy. <span class="fc-sure">certainty: 100%</span><span class="cert">CERTIFIED</span></div>
+            <div class="forecast-card" style="--rot: 0.5deg;"><span class="fc-no">No. 2</span> <strong>WILL</strong> stand on a stage again — on purpose, louder. <span class="fc-sure">certainty: 97%</span><span class="cert">CERTIFIED</span></div>
+            <div class="forecast-card" style="--rot: -0.4deg;"><span class="fc-no">No. 3</span> <strong>WILL</strong> be owned by at least one extremely spoiled cat. <span class="fc-sure">certainty: 99%</span><span class="cert">CERTIFIED</span></div>
+            <div class="forecast-card" style="--rot: 0.6deg;"><span class="fc-no">No. 4</span> <strong>WILL</strong> succeed at whatever she puts her mind to. <span class="fc-sure">certainty: not even a question</span><span class="cert">CERTIFIED</span></div>
+            <div class="forecast-card" style="--rot: -0.5deg;"><span class="fc-no">No. 5</span> <strong>WILL</strong> still lose to me at chess. <span class="fc-sure">certainty: 99% (margin of error: one lucky win)</span><span class="cert">CERTIFIED</span></div>
+          </div>
+          <div class="page-num">17</div>
+        </div>
+        <div class="page back" data-screen-label="Guarantee">
+          <div class="kicker">Terms &amp; Conditions</div>
+          <h2>All predictions guaranteed.</h2>
+          <div class="orn"><span>❦</span></div>
+          <!-- ✏️ EDIT: this page -->
+          <p class="body">If any forecast on the previous page fails to come true, you are entitled to: a full refund of what you paid for this book <em>(free)</em>, one handwritten apology, and one (1) chess rematch <em>(you'll lose)</em>.</p>
+          <p class="body">But I'm not worried about the paperwork.</p>
+          <p class="body"><strong>I've never bet on anything as safe as you.</strong></p>
+          <div class="spacer"></div>
+          <div class="margin-note">— the management</div>
+          <div class="page-num">18</div>
+        </div>
+      </div>
+
+      <!-- ════════ LEAF 11 : The road / Write back ════════ -->
+      <div class="leaf">
+        <div class="page front" data-screen-label="The road">
+          <div class="kicker">About Next Year</div>
+          <h2>I'm graduating. You're not rid of me.</h2>
+          <!-- ✏️ EDIT: this page -->
+          <p class="body">I'm heading off to college, and you've still got high school to finish conquering. But this isn't a goodbye page.</p>
+          <p class="body" style="margin-bottom: 10px;">You like motorcycles — so you already know how fast a road disappears. <strong>Distance is just geography.</strong></p>
+          <p class="body" style="font-size: 19px; margin-bottom: 0;">Besides: you have my number, a chessboard is portable, and I will absolutely be checking in. You're stuck with me — long-distance edition.</p>
+          <div class="road-scene" aria-hidden="true">
+            <div class="sun"></div>
+            <div class="road"></div>
+            <div class="dashes"></div>
+          </div>
+          <div class="spacer"></div>
+          <div class="page-num">19</div>
+        </div>
+        <div class="page back" data-screen-label="Write back">
+          <div class="kicker">Your Turn</div>
+          <h2>This page is yours.</h2>
+          <div class="write-back" data-no-flip>
+            <!-- ✏️ EDIT: the prompt -->
+            <p class="hand" style="margin: 0;">write anything. a reply, a complaint, a chess rematch challenge —</p>
+            <textarea id="replyBox" placeholder="dear author of this questionable book, ..."></textarea>
+            <div class="save-note">it saves itself, on your device only. nobody else can read it — not even me.</div>
+          </div>
+          <div class="page-num">20</div>
+        </div>
+      </div>
+
+      <!-- ════════ LEAF 12 : Bloom finale / Back cover ════════ -->
+      <div class="leaf">
+        <div class="page front" data-screen-label="Bloom finale">
+          <div class="kicker">One More Thing</div>
+          <div class="bloom-stage" data-no-flip>
+            <button class="bloom" id="bloom" aria-label="Tap to bloom">
+              <span class="petal" style="--a: 0deg;   --d: 0ms;"></span>
+              <span class="petal" style="--a: 45deg;  --d: 70ms;"></span>
+              <span class="petal" style="--a: 90deg;  --d: 140ms;"></span>
+              <span class="petal" style="--a: 135deg; --d: 210ms;"></span>
+              <span class="petal" style="--a: 180deg; --d: 280ms;"></span>
+              <span class="petal" style="--a: 225deg; --d: 350ms;"></span>
+              <span class="petal" style="--a: 270deg; --d: 420ms;"></span>
+              <span class="petal" style="--a: 315deg; --d: 490ms;"></span>
+              <span class="core"></span>
+              <span class="bud-hint">tap the bud</span>
+            </button>
+            <div class="bloom-message" id="bloomMessage">
+              <!-- ✏️ EDIT: the final message + signature -->
+              <p class="big">I'm proud of you, Aseel.<br />Always have been.</p>
+              <p class="hand">— your brother by everything but paperwork</p>
+            </div>
+          </div>
+          <div class="page-num">21</div>
+        </div>
+        <div class="page back cover back-cover" data-screen-label="Back cover">
+          <div class="cover-frame"></div>
+          <div class="spacer"></div>
+          <svg viewBox="0 0 64 64" width="48" height="48" aria-hidden="true"><polygon points="14,27 17,9 30,19" fill="currentColor"></polygon><polygon points="50,27 47,9 34,19" fill="currentColor"></polygon><circle cx="32" cy="37" r="20" fill="currentColor"></circle><circle cx="25" cy="34" r="2.4" fill="#74394a"></circle><circle cx="39" cy="34" r="2.4" fill="#74394a"></circle><polygon points="32,40 29,43 35,43" fill="#74394a"></polygon></svg>
+          <!-- ✏️ EDIT: back cover -->
+          <div class="cover-sub" style="margin-top: 18px;">the end.</div>
+          <div class="cover-kicker" style="margin-top: 10px; font-size: 12px;">(rematch pending)</div>
+          <div class="spacer"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<nav class="controls" aria-label="Book navigation">
+  <button id="prevBtn" aria-label="Previous page">‹ back</button>
+  <span class="where" id="where">the cover</span>
+  <button id="nextBtn" aria-label="Next page">turn ›</button>
+  <button id="soundBtn" class="sound-btn" aria-label="Toggle sound">♪ on</button>
+</nav>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+<script src="book-engine.js"></script>
+
+</body>
+</html>
